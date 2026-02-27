@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrado del contenedor en pantalla */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+}
+
+/* El lienzo azul oscuro */
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #1f2a8a;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilos base para las figuras */
+.square,
+.circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.square {
+    background-color: #6ec1cc; /* Cian */
+}
+
+.circle {
+    background-color: #d65aa5; /* Rosa */
+    border-radius: 50%;
+}
+
+/* POSICIONAMIENTO */
+
+/* Esquina Superior Izquierda */
+.top-left { 
+    top: 30px; 
+    left: 30px; 
+}
+.top-left-2 { 
+    top: 30px; 
+    left: 90px; /* 30 de margen + 60 del primer objeto */
+}
+
+/* Esquina Superior Derecha */
+.top-right { 
+    top: 30px; 
+    right: 30px; 
+}
+.top-right-2 { 
+    top: 30px; 
+    right: 90px; 
+}
+
+/* Esquina Inferior Izquierda */
+.bottom-left { 
+    bottom: 30px; 
+    left: 30px; 
+}
+.bottom-left-2 { 
+    bottom: 30px; 
+    left: 90px; 
+}
+
+/* Esquina Inferior Derecha */
+.bottom-right { 
+    bottom: 30px; 
+    right: 30px; 
+}
+.bottom-right-2 { 
+    bottom: 30px; 
+    right: 90px; 
+}
