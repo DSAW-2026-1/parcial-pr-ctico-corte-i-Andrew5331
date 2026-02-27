@@ -2,6 +2,9 @@
 # Parcial Desarrollo Web: Ingeniería de Prompts y Maquetación
 
 ## Contexto
+Hecho por: Andres Felipe Ramos Pineda
+https://dsaw-2026-1.github.io/parcial-pr-ctico-corte-i-Andrew5331/
+
 Como desarrollador frontend, a menudo recibirás diseños que debes prototipar rápidamente. En este ejercicio, utilizarás una **Inteligencia Artificial** (como ChatGPT, Claude o Gemini o el IDE potenciado por IA de tu preferencia) para generar el código base, pero tu éxito dependerá de qué tan precisos y técnicos sean tus instrucciones (prompts).
 
 ## El Reto
