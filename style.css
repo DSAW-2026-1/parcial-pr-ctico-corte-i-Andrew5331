@@ -1,65 +1,37 @@
-/* Basic reset */
+/* Reset básico */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Global styles */
+/* Centrar todo en pantalla */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
-    color: #222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
 }
 
-/* Basic spacing */
-header,
-nav,
-main,
-aside,
-footer {
-    padding: 20px;
-}
-
-/* Navigation */
-nav ul {
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #222;
-    font-weight: bold;
-}
-
-/* Main blue container */
+/* Contenedor principal */
 .container {
     width: 400px;
     height: 300px;
     background-color: #1f2a8a;
-    margin: 40px auto;
-    padding: 20px;
-
-    /* Soft shadow */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    position: relative;
 }
 
-/* Shapes */
+/* Figuras base */
 .square,
 .circle {
     width: 60px;
     height: 60px;
-    display: inline-block;
-    margin: 10px;
+    position: absolute;
 }
 
 .square {
-    background-color: #5ac8d8;
+    background-color: #6ec1cc;
 }
 
 .circle {
@@ -67,21 +39,28 @@ nav a {
     border-radius: 50%;
 }
 
-/* Buttons */
-button {
-    padding: 10px 15px;
-    background-color: #5ac8d8;
-    border: none;
-    color: white;
-    cursor: pointer;
+/* Posiciones */
+
+/* Top Left */
+.top-left {
+    top: 30px;
+    left: 30px;
 }
 
-button:hover {
-    background-color: #3ea7b5;
+/* Top Right */
+.top-right {
+    top: 30px;
+    right: 30px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
+/* Bottom Left */
+.bottom-left {
+    bottom: 30px;
+    left: 30px;
+}
+
+/* Bottom Right */
+.bottom-right {
+    bottom: 30px;
+    right: 30px;
 }
