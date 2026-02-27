@@ -40,7 +40,7 @@ body {
     border-radius: 50%;
 }
 
-/* POSICIONAMIENTO CON SEPARACIÓN */
+/* POSICIONAMIENTO */
 
 /* Esquina Superior Izquierda */
 .top-left { 
@@ -49,7 +49,7 @@ body {
 }
 .top-left-2 { 
     top: 30px; 
-    left: 100px; /* Incrementado de 90px a 100px para dar 10px de separación */
+    left: 90px; /* 30 de margen + 60 del primer objeto */
 }
 
 /* Esquina Superior Derecha */
@@ -59,7 +59,7 @@ body {
 }
 .top-right-2 { 
     top: 30px; 
-    right: 100px; /* Incrementado de 90px a 100px */
+    right: 90px; 
 }
 
 /* Esquina Inferior Izquierda */
@@ -69,7 +69,7 @@ body {
 }
 .bottom-left-2 { 
     bottom: 30px; 
-    left: 100px; /* Incrementado de 90px a 100px */
+    left: 90px; 
 }
 
 /* Esquina Inferior Derecha */
@@ -79,5 +79,5 @@ body {
 }
 .bottom-right-2 { 
     bottom: 30px; 
-    right: 100px; /* Incrementado de 90px a 100px */
+    right: 90px; 
 }
