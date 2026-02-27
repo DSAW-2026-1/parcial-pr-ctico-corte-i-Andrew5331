@@ -13,28 +13,26 @@ body {
 }
 
 .container {
-    width: 500px; /* Un poco más ancho para que luzca mejor */
-    height: 350px;
+    width: 450px;
+    height: 320px;
     background-color: #1f2a8a;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Separa fila superior de inferior */
+    justify-content: space-between; /* Separa los grupos de arriba de los de abajo */
 }
 
-.row {
+.fila {
     display: flex;
-    justify-content: space-between; /* Manda los grupos a las esquinas */
-    width: 100%;
+    justify-content: space-between; /* Separa los grupos de la izquierda de la derecha */
 }
 
-.group {
+.grupo {
     display: flex;
-    gap: 20px; /* <--- ESTO separa el cuadrado de la bola */
+    gap: 15px; /* <--- ESTO separa físicamente el cuadrado de la bola */
     align-items: center;
 }
 
-/* Figuras */
 .square {
     width: 60px;
     height: 60px;
