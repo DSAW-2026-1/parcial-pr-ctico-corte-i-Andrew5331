@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Center container in viewport */
+/* Center screen */
 body {
     height: 100vh;
     display: flex;
@@ -14,7 +14,7 @@ body {
     background-color: #111827;
 }
 
-/* Main container */
+/* Container */
 .container {
     width: 400px;
     height: 300px;
@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 
-/* Base shapes */
+/* Shapes */
 .square,
 .circle {
     width: 60px;
@@ -39,52 +39,46 @@ body {
     border-radius: 50%;
 }
 
-/* Consistent spacing */
-:root {
-    --offset: 30px;
-    --gap: 90px; /* distance between first and second shape */
-}
-
 /* TOP LEFT */
-.top-left-square {
-    top: var(--offset);
-    left: var(--offset);
+.top-left {
+    top: 30px;
+    left: 30px;
 }
 
-.top-left-circle {
-    top: var(--offset);
-    left: calc(var(--offset) + var(--gap));
+.top-left-2 {
+    top: 30px;
+    left: 120px;
 }
 
 /* TOP RIGHT */
-.top-right-circle {
-    top: var(--offset);
-    right: var(--offset);
+.top-right {
+    top: 30px;
+    right: 30px;
 }
 
-.top-right-square {
-    top: var(--offset);
-    right: calc(var(--offset) + var(--gap));
+.top-right-2 {
+    top: 30px;
+    right: 120px;
 }
 
 /* BOTTOM LEFT */
-.bottom-left-circle {
-    bottom: var(--offset);
-    left: var(--offset);
+.bottom-left {
+    bottom: 30px;
+    left: 30px;
 }
 
-.bottom-left-square {
-    bottom: var(--offset);
-    left: calc(var(--offset) + var(--gap));
+.bottom-left-2 {
+    bottom: 30px;
+    left: 120px;
 }
 
 /* BOTTOM RIGHT */
-.bottom-right-square {
-    bottom: var(--offset);
-    right: var(--offset);
+.bottom-right {
+    bottom: 30px;
+    right: 30px;
 }
 
-.bottom-right-circle {
-    bottom: var(--offset);
-    right: calc(var(--offset) + var(--gap));
+.bottom-right-2 {
+    bottom: 30px;
+    right: 120px;
 }
