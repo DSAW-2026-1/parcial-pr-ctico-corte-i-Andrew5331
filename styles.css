@@ -1,11 +1,11 @@
-/* Reset */
+/* Reset básico */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Center screen */
+/* Centrado del contenedor en pantalla */
 body {
     height: 100vh;
     display: flex;
@@ -14,15 +14,16 @@ body {
     background-color: #111827;
 }
 
-/* Container */
+/* El lienzo azul oscuro */
 .container {
     width: 400px;
     height: 300px;
     background-color: #1f2a8a;
     position: relative;
+    overflow: hidden;
 }
 
-/* Shapes */
+/* Estilos base para las figuras */
 .square,
 .circle {
     width: 60px;
@@ -31,54 +32,52 @@ body {
 }
 
 .square {
-    background-color: #6ec1cc;
+    background-color: #6ec1cc; /* Cian */
 }
 
 .circle {
-    background-color: #d65aa5;
+    background-color: #d65aa5; /* Rosa */
     border-radius: 50%;
 }
 
-/* TOP LEFT */
-.top-left {
-    top: 30px;
-    left: 30px;
+/* POSICIONAMIENTO CON SEPARACIÓN */
+
+/* Esquina Superior Izquierda */
+.top-left { 
+    top: 30px; 
+    left: 30px; 
+}
+.top-left-2 { 
+    top: 30px; 
+    left: 100px; /* Incrementado de 90px a 100px para dar 10px de separación */
 }
 
-.top-left-2 {
-    top: 30px;
-    left: 120px;
+/* Esquina Superior Derecha */
+.top-right { 
+    top: 30px; 
+    right: 30px; 
+}
+.top-right-2 { 
+    top: 30px; 
+    right: 100px; /* Incrementado de 90px a 100px */
 }
 
-/* TOP RIGHT */
-.top-right {
-    top: 30px;
-    right: 30px;
+/* Esquina Inferior Izquierda */
+.bottom-left { 
+    bottom: 30px; 
+    left: 30px; 
+}
+.bottom-left-2 { 
+    bottom: 30px; 
+    left: 100px; /* Incrementado de 90px a 100px */
 }
 
-.top-right-2 {
-    top: 30px;
-    right: 120px;
+/* Esquina Inferior Derecha */
+.bottom-right { 
+    bottom: 30px; 
+    right: 30px; 
 }
-
-/* BOTTOM LEFT */
-.bottom-left {
-    bottom: 30px;
-    left: 30px;
-}
-
-.bottom-left-2 {
-    bottom: 30px;
-    left: 120px;
-}
-
-/* BOTTOM RIGHT */
-.bottom-right {
-    bottom: 30px;
-    right: 30px;
-}
-
-.bottom-right-2 {
-    bottom: 30px;
-    right: 120px;
+.bottom-right-2 { 
+    bottom: 30px; 
+    right: 100px; /* Incrementado de 90px a 100px */
 }
