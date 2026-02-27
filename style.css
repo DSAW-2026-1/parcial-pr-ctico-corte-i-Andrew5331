@@ -1,1 +1,87 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* Basic spacing */
+header,
+nav,
+main,
+aside,
+footer {
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Main blue container */
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #1f2a8a;
+    margin: 40px auto;
+    padding: 20px;
+
+    /* Soft shadow */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Shapes */
+.square,
+.circle {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.square {
+    background-color: #5ac8d8;
+}
+
+.circle {
+    background-color: #d65aa5;
+    border-radius: 50%;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: #5ac8d8;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3ea7b5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
